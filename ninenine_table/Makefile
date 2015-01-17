@@ -1,4 +1,4 @@
-CPPFLAGS=-std=c++11 -O0
+CPPFLAGS=-std=c++11 -O2
 
 all: nine nine_for
 
