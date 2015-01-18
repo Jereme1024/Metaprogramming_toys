@@ -30,9 +30,9 @@ struct print
 
 int main()
 {
-	mpl::for_each<mpl::range_c<int, 1, 100>>( print() );
+	//mpl::for_each<mpl::range_c<int, 1, 100>>( print() );
 
-	//std::cout << is_prime<97>::value << std::endl;
+	volatile bool result = is_prime<18181>::value;
 
 	return 0;
 }
