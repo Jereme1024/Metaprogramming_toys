@@ -34,8 +34,9 @@ struct IS_PRIME
 int main()
 {
 	typedef IS_PRIME<18181> is_prime;
+	volatile bool result = is_prime::value;
 
-	std::cout << is_prime::value << "\n";
+	//std::cout << is_prime::value << "\n";
 
 	return 0;
 }
