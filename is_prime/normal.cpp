@@ -17,7 +17,7 @@ bool is_prime_recusrive(int n, int i = 2)
 
 int main()
 {
-	std::cout << is_prime_recusrive(18181) << std::endl;
+	std::cout << is_prime_recusrive(18181) << "\n";
 
 	return 0;
 }
